@@ -3,10 +3,10 @@
 
 # Introduction To Oracle Database :
 
-History of Oracle:
+## History of Oracle:
 http://www.dba-oracle.com/t_history_oracle.htm
 
-What is meaning of i, g and c in Oracle Database Version: 
+## What is meaning of i, g and c in Oracle Database Version: 
 
 Larry Ellison, Bob Miner, Ed Oates and Bruce Scott founded Oracle in 1977 with an initial name as Project Oracle. Later renamed Relational Software Inc (RSI), released Oracle Database release 2, 3…8, 8i, 9i, 10g, 11g and 12c which is the latest release.
 
@@ -35,6 +35,7 @@ c – CLOUD
 
 In addition to many new features, this new version of the Oracle Database implements a multitenant architecture, which enables the creation of pluggable databases (PDBs) in a multitenant container database (CDB).
 
+## Support :
 ![Support](https://github.com/t2hoo/oracle/blob/2e349b66928ecb596f2d4c3d686e1856ed68464d/img/19c_timelines.jpg)
 
 ## Course Agenda : 
