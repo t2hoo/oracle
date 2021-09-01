@@ -3,6 +3,8 @@
 
 # Introduction To Oracle Database :
 
+![Support](https://github.com/t2hoo/oracle/blob/2e349b66928ecb596f2d4c3d686e1856ed68464d/img/19c_timelines.jpg)
+
 ## Course Agenda : 
 ### Life Cycle & Database Definition -
 ### What is a Table? -
