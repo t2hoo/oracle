@@ -38,6 +38,32 @@ In addition to many new features, this new version of the Oracle Database implem
 ## Support :
 ![Support](https://github.com/t2hoo/oracle/blob/2e349b66928ecb596f2d4c3d686e1856ed68464d/img/19c_timelines.jpg)
 
+## 11g vs 12c :
+
+
+Sr. No.	Key	Oracle 11g	Oracle 12c
+1
+Basic
+It was released in released in 2008 and has no pluggable database
+It is High performance RDbMS which is released in 2014. It is pluggable database.
+2
+Identity column
+We can't set primary key to raise automatically
+We can set primary key to rise automatically.
+3
+JSON type
+We can't store Json directly to the column as Oracle 11g doesn't have JSON column type.
+Oracle has introduced JSON column type.
+4.
+Cloud support
+Oracle 11g doesn't have cloud services
+It provides Oracle cloud services.
+5.
+In-memory capabilities
+No in-memory capabilities
+It has in-memory capabilities.
+
+
 ## Course Agenda : 
 ### Life Cycle & Database Definition -
 ### What is a Table? -
