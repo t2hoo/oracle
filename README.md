@@ -133,7 +133,7 @@ Primary Key* or identifier is an attribute or a set of attributes that uniquely 
 A foreign key+ (sometimes called a referencing key) is a key used to link two tables together. Typically you take the primary key field from one table and insert it into the other table where it becomes a foreign key (it remains a primary key in the original table). We can have more than one foreign key in a table.
 
 An Example
-Here's a sample crowsfoot diagram from a past offering of CS270 taught here at the University of Regina. We've redrawn the diagrams using more modern diagramming tools, but the content is unchanged. It uses a lot of ERD symbols, so you might want to use Vivek Chawla's quick guide while you read it.
+Here's a sample crowsfoot diagram from a past offering of CS270 taught here at the University of Regina. We've redrawn the diagrams using more modern diagramming tools, but the content is unchanged. It uses a lot of ERD symbols.
 
 ![image](https://user-images.githubusercontent.com/89846476/132716090-14c92307-1c05-4aa5-a413-0b3c5f39e19f.png)
 
