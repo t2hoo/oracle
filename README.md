@@ -65,14 +65,15 @@ It has in-memory capabilities.
 
 
 ## Course Agenda : 
-### Life Cycle & Database Definition -
 ### What is a Table? -
+A table is an arrangement of information in rows and columns containing cells that make comparing and contrasting information easier. As you can see in the following example, the data is easier to read in a table format.
 ### Data Models & ERM - 
 ### About Primary key & foreign key - 
 ### SQL and Types of SQL Statements -
 ### Oracle Database 12c Architecture -
 ### HR Schema in this Course -
 
+![image](https://user-images.githubusercontent.com/89846476/132714755-a4e774a4-53d0-4cfa-beb8-64ad630ba13e.png)
 
 
 - 📫 reach me at - tanmaya_ise@rediffmail.com
