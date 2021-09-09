@@ -142,6 +142,8 @@ Here's a sample crowsfoot diagram from a past offering of CS270 taught here at t
 
 
 ### SQL and Types of SQL Statements -
+![image](https://user-images.githubusercontent.com/89846476/132719689-190bd275-c7ac-45b6-bb72-459a8d47f745.png)
+
 ### Oracle Database 12c Architecture -
 ### HR Schema in this Course -
 
