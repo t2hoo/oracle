@@ -99,6 +99,9 @@ For example: the student John Smith is a record in a table called students.
 ##### Relationships
 Relationships are the associations between the entities. Verbs often describe relationships between entities. We will use Crow's Foot Symbols to represent the relationships. Three types of relationships are discussed in this lab. If you read or hear cardinality ratios, it also refers to types of relationships.
 
+![image](https://user-images.githubusercontent.com/89846476/132718716-2dd73850-a6e3-46cb-aff0-2b2c9d81c4bc.png)
+
+
 ##### One to One Relationship (1:1)
 A single entity instance in one entity class is related to a single entity instance in another entity class.
 
