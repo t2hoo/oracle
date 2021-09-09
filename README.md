@@ -85,22 +85,20 @@ The main value of carefully constructing an ERD is that it can readily be conver
 
 There are three components in ERD.
 
-Entities: Number of tables you need for your database.
-Attributes: Information such as property, facts you need to describe each table.
-Relationships: How tables are linked together.
-Entity
+##### Entities: Number of tables you need for your database.
+##### Attributes: Information such as property, facts you need to describe each table.
+##### Relationships: How tables are linked together.
+##### Entity
 Entities are the basic objects of ERDs. These are the tables of your database. Entity are nouns and the types usually fall into five classes: concepts, locations, roles, events or things.
 For example: students, courses, books, campus, employees, payment, projects.
 
 A specific example of an entity is called an instance. Each instance becomes a record or a row in a table.
 For example: the student John Smith is a record in a table called students.
 
-Relationships
+##### Relationships
 Relationships are the associations between the entities. Verbs often describe relationships between entities. We will use Crow's Foot Symbols to represent the relationships. Three types of relationships are discussed in this lab. If you read or hear cardinality ratios, it also refers to types of relationships.
 
-relationship
-
-One to One Relationship (1:1)
+##### One to One Relationship (1:1)
 A single entity instance in one entity class is related to a single entity instance in another entity class.
 
 For example:
@@ -120,15 +118,15 @@ Each student can take many classes, and each class can be taken by many students
 Each consumer can buy many products, and each product can be bought by many consumers.
 The detailed Crow's Foot Relationship symbols can be found here. Crow's Foot Relationship Symbols
 
-Many to many relationships are difficult to represent. We need to decompose a many to many (M:M) relationship into two one-to-many (1:M) relationships.
+##### Many to many relationships are difficult to represent. We need to decompose a many to many (M:M) relationship into two one-to-many (1:M) relationships.
 
-Attributes
+##### Attributes
 Attributes are facts or description of entities. They are also often nouns and become the columns of the table. For example, for entity student, the attributes can be first name, last name, email, address and phone numbers.
 
-Primary Key
+##### Primary Key
 Primary Key* or identifier is an attribute or a set of attributes that uniquely identifies an instance of the entity. For example, for a student entity, student number is the primary key since no two students have the same student number. We can have only one primary key in a table. It identify uniquely every row and it cannot be null.
 
-Foreign key
+##### Foreign key
 A foreign key+ (sometimes called a referencing key) is a key used to link two tables together. Typically you take the primary key field from one table and insert it into the other table where it becomes a foreign key (it remains a primary key in the original table). We can have more than one foreign key in a table.
 
 An Example
