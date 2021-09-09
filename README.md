@@ -142,12 +142,12 @@ Here's a sample crowsfoot diagram from a past offering of CS270 taught here at t
 
 
 ### SQL and Types of SQL Statements -
-Data Definition Language (DDL) Statements
+##### Data Definition Language (DDL) Statements
 Data definition language (DDL) statements let you to perform these tasks:
 
-Create, alter, and drop schema objects
+**Create, alter, and drop** schema objects
 
-Grant and revoke privileges and roles
+**Grant and revoke** privileges and roles
 
 Analyze information on a table, index, or cluster
 
@@ -155,9 +155,9 @@ Establish auditing options
 
 Add comments to the data dictionary
 
-The CREATE, ALTER, and DROP commands require exclusive access to the specified object. For example, an ALTER TABLE statement fails if another user has an open transaction on the specified table.
+The **CREATE, ALTER, and DROP** commands require exclusive access to the specified object. For example, an ALTER TABLE statement fails if another user has an open transaction on the specified table.
 
-The GRANT, REVOKE, ANALYZE, AUDIT, and COMMENT commands do not require exclusive access to the specified object. For example, you can analyze a table while other users are updating the table.
+The **GRANT, REVOKE, ANALYZE, AUDIT, and COMMENT** commands do not require exclusive access to the specified object. For example, you can analyze a table while other users are updating the table.
 
 Oracle Database implicitly commits the current transaction before and after every DDL statement.
 
@@ -165,13 +165,9 @@ Many DDL statements may cause Oracle Database to recompile or reauthorize schema
 
 DDL statements are supported by PL/SQL with the use of the DBMS_SQL package.
 
-See Also:
-
-PL/SQL Packages and Types Reference
-The DDL statements are:
 
 
-ALTER ... (All statements beginning with ALTER)
+**ALTER ... (All statements beginning with ALTER)
 ANALYZE
 ASSOCIATE STATISTICS
 AUDIT
@@ -185,34 +181,36 @@ NOAUDIT
 PURGE
 RENAME
 REVOKE
-TRUNCATE
-Data Manipulation Language (DML) Statements
+TRUNCATE**
+
+##### Data Manipulation Language (DML) Statements
 Data manipulation language (DML) statements access and manipulate data in existing schema objects. These statements do not implicitly commit the current transaction. The data manipulation language statements are:
 
 
-CALL
+**CALL
 DELETE
 EXPLAIN PLAN
 INSERT
 LOCK TABLE
 MERGE
 SELECT
-UPDATE
+UPDATE**
+
 The SELECT statement is a limited form of DML statement in that it can only access data in the database. It cannot manipulate data in the database, although it can operate on the accessed data before returning the results of the query.
 
 The CALL and EXPLAIN PLAN statements are supported in PL/SQL only when executed dynamically. All other DML statements are fully supported in PL/SQL.
 
-Transaction Control Statements
+##### Transaction Control Statements
 Transaction control statements manage changes made by DML statements. The transaction control statements are:
 
 
-COMMIT
+**COMMIT
 ROLLBACK
 SAVEPOINT
-SET TRANSACTION
+SET TRANSACTION**
 All transaction control statements, except certain forms of the COMMIT and ROLLBACK commands, are supported in PL/SQL. For information on the restrictions, see COMMIT and ROLLBACK.
 
-Session Control Statements
+##### Session Control Statements
 Session control statements dynamically manage the properties of a user session. These statements do not implicitly commit the current transaction.
 
 PL/SQL does not support session control statements. The session control statements are:
