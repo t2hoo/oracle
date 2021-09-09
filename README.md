@@ -67,13 +67,80 @@ It has in-memory capabilities.
 ## Course Agenda : 
 ### What is a Table? -
 A table is an arrangement of information in rows and columns containing cells that make comparing and contrasting information easier. As you can see in the following example, the data is easier to read in a table format.
+### DBMS vs RDBMS
+![image](https://user-images.githubusercontent.com/89846476/132714755-a4e774a4-53d0-4cfa-beb8-64ad630ba13e.png)
+
+### What is Distributed Database? - 
+In a distributed database, there are a number of databases that may be geographically distributed all over the world. A distributed DBMS manages the distributed database in a manner so that it appears as one single database to users. In the later part of the chapter, we go on to study the factors that lead to distributed databases, its advantages and disadvantages.
+A distributed database is a collection of multiple interconnected databases, which are spread physically across various locations that communicate via a computer network.
 ### Data Models & ERM - 
+
+#### Data Modeling
+Data modeling is a technique to document a software system using diagrams and symbols. It is used to represent communication of data.
+
+The highest level of abstraction for the data model is called the Entity Relationship Diagram (ERD). It is a graphical representation of data requirements for a database.
+
+#### Entity Relationship Diagram
+The main value of carefully constructing an ERD is that it can readily be converted into a database structure.
+
+There are three components in ERD.
+
+Entities: Number of tables you need for your database.
+Attributes: Information such as property, facts you need to describe each table.
+Relationships: How tables are linked together.
+Entity
+Entities are the basic objects of ERDs. These are the tables of your database. Entity are nouns and the types usually fall into five classes: concepts, locations, roles, events or things.
+For example: students, courses, books, campus, employees, payment, projects.
+
+A specific example of an entity is called an instance. Each instance becomes a record or a row in a table.
+For example: the student John Smith is a record in a table called students.
+
+Relationships
+Relationships are the associations between the entities. Verbs often describe relationships between entities. We will use Crow's Foot Symbols to represent the relationships. Three types of relationships are discussed in this lab. If you read or hear cardinality ratios, it also refers to types of relationships.
+
+relationship
+
+One to One Relationship (1:1)
+A single entity instance in one entity class is related to a single entity instance in another entity class.
+
+For example:
+Each student fills one seat and one seat is assigned to only one student.
+Each professor has one office space.
+One to Many Relationship (1:M)
+A single entity instance in one entity class (parent) is related to multiple entity instances in another entity class (child)
+
+For example:
+One instructor can teach many courses, but one course can only be taught by one instructor.
+One instructor may teach many students in one class, but all the students have one instructor for that class.
+Many to Many Relationship (M:M)
+Each entity instance in one entity class is related to multiple entity instances in another entity class; and vice versa.
+
+For example:
+Each student can take many classes, and each class can be taken by many students.
+Each consumer can buy many products, and each product can be bought by many consumers.
+The detailed Crow's Foot Relationship symbols can be found here. Crow's Foot Relationship Symbols
+
+Many to many relationships are difficult to represent. We need to decompose a many to many (M:M) relationship into two one-to-many (1:M) relationships.
+
+Attributes
+Attributes are facts or description of entities. They are also often nouns and become the columns of the table. For example, for entity student, the attributes can be first name, last name, email, address and phone numbers.
+
+Primary Key
+Primary Key* or identifier is an attribute or a set of attributes that uniquely identifies an instance of the entity. For example, for a student entity, student number is the primary key since no two students have the same student number. We can have only one primary key in a table. It identify uniquely every row and it cannot be null.
+
+Foreign key
+A foreign key+ (sometimes called a referencing key) is a key used to link two tables together. Typically you take the primary key field from one table and insert it into the other table where it becomes a foreign key (it remains a primary key in the original table). We can have more than one foreign key in a table.
+
+An Example
+Here's a sample crowsfoot diagram from a past offering of CS270 taught here at the University of Regina. We've redrawn the diagrams using more modern diagramming tools, but the content is unchanged. It uses a lot of ERD symbols, so you might want to use Vivek Chawla's quick guide while you read it.
+
+![image](https://user-images.githubusercontent.com/89846476/132716090-14c92307-1c05-4aa5-a413-0b3c5f39e19f.png)
+
 ### About Primary key & foreign key - 
 ### SQL and Types of SQL Statements -
 ### Oracle Database 12c Architecture -
 ### HR Schema in this Course -
 
-![image](https://user-images.githubusercontent.com/89846476/132714755-a4e774a4-53d0-4cfa-beb8-64ad630ba13e.png)
 
 
 - 📫 reach me at - tanmaya_ise@rediffmail.com
