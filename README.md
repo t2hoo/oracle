@@ -88,6 +88,7 @@ There are three components in ERD.
 ##### Entities: Number of tables you need for your database.
 ##### Attributes: Information such as property, facts you need to describe each table.
 ##### Relationships: How tables are linked together.
+
 ##### Entity
 Entities are the basic objects of ERDs. These are the tables of your database. Entity are nouns and the types usually fall into five classes: concepts, locations, roles, events or things.
 For example: students, courses, books, campus, employees, payment, projects.
@@ -123,6 +124,8 @@ The detailed Crow's Foot Relationship symbols can be found here. Crow's Foot Rel
 ##### Attributes
 Attributes are facts or description of entities. They are also often nouns and become the columns of the table. For example, for entity student, the attributes can be first name, last name, email, address and phone numbers.
 
+### About Primary key & foreign key - 
+
 ##### Primary Key
 Primary Key* or identifier is an attribute or a set of attributes that uniquely identifies an instance of the entity. For example, for a student entity, student number is the primary key since no two students have the same student number. We can have only one primary key in a table. It identify uniquely every row and it cannot be null.
 
@@ -134,7 +137,7 @@ Here's a sample crowsfoot diagram from a past offering of CS270 taught here at t
 
 ![image](https://user-images.githubusercontent.com/89846476/132716090-14c92307-1c05-4aa5-a413-0b3c5f39e19f.png)
 
-### About Primary key & foreign key - 
+
 ### SQL and Types of SQL Statements -
 ### Oracle Database 12c Architecture -
 ### HR Schema in this Course -
