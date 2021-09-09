@@ -144,6 +144,18 @@ Here's a sample crowsfoot diagram from a past offering of CS270 taught here at t
 ### SQL and Types of SQL Statements -
 ![image](https://user-images.githubusercontent.com/89846476/132719689-190bd275-c7ac-45b6-bb72-459a8d47f745.png)
 
+Data Definition Language (DDL) Statements
+
+Data Manipulation Language (DML) Statements
+
+Transaction Control Statements
+
+Session Control Statements
+
+System Control Statement
+
+Embedded SQL Statements
+
 ### Oracle Database 12c Architecture -
 ### HR Schema in this Course -
 
